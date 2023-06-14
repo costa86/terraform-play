@@ -1,0 +1,4 @@
+---
+exclude:
+  - aws-ec2-enforce-http-token-imds
+  - aws-ec2-enable-at-rest-encryption
