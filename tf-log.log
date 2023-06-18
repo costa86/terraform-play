@@ -1,5 +1,49 @@
-2023-06-14T19:35:20.919+0100 [ERROR] vertex "var.region" error: Invalid value for variable
-2023-06-14T19:36:17.995+0100 [ERROR] vertex "var.region" error: Invalid value for variable
-2023-06-14T20:17:01.289+0100 [ERROR] vertex "var.region" error: Invalid value for variable
-2023-06-14T20:18:31.461+0100 [ERROR] vertex "var.region" error: Invalid value for variable
-2023-06-14T20:21:15.527+0100 [ERROR] vertex "var.region" error: Invalid value for variable
+2023-06-19T00:00:31.952+0100 [ERROR] vertex "var.region" error: Invalid value for variable
+2023-06-19T00:02:21.858+0100 [INFO]  Terraform version: 1.4.6
+2023-06-19T00:02:21.858+0100 [INFO]  Go runtime version: go1.19.6
+2023-06-19T00:02:21.858+0100 [INFO]  CLI args: []string{"terraform", "plan", "-var-file=uat.tfvars"}
+2023-06-19T00:02:21.859+0100 [INFO]  CLI command args: []string{"plan", "-var-file=uat.tfvars"}
+2023-06-19T00:02:23.267+0100 [INFO]  backend/local: starting Plan operation
+2023-06-19T00:02:23.268+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:02:23.583+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:02:23.583+0100
+2023-06-19T00:02:24.103+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:02:24.103+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:02:24.104+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:02:24.383+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:02:24.383+0100
+2023-06-19T00:02:24.763+0100 [INFO]  backend/local: plan calling Plan
+2023-06-19T00:02:24.763+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:02:24.763+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:02:24.764+0100 [ERROR] vertex "var.region" error: Invalid value for variable
+2023-06-19T00:02:24.764+0100 [INFO]  backend/local: plan operation completed
+2023-06-19T00:11:38.931+0100 [INFO]  Terraform version: 1.4.6
+2023-06-19T00:11:38.931+0100 [INFO]  Go runtime version: go1.19.6
+2023-06-19T00:11:38.931+0100 [INFO]  CLI args: []string{"terraform", "plan", "-var-file=uat.tfvars"}
+2023-06-19T00:11:38.931+0100 [INFO]  CLI command args: []string{"plan", "-var-file=uat.tfvars"}
+2023-06-19T00:11:40.310+0100 [INFO]  backend/local: starting Plan operation
+2023-06-19T00:11:40.311+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:11:40.612+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:11:40.612+0100
+2023-06-19T00:11:41.214+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:11:41.214+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:11:41.214+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:11:41.563+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:11:41.563+0100
+2023-06-19T00:11:41.941+0100 [INFO]  backend/local: plan calling Plan
+2023-06-19T00:11:41.942+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:11:41.942+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:11:41.943+0100 [ERROR] vertex "var.region" error: Invalid value for variable
+2023-06-19T00:11:41.943+0100 [INFO]  backend/local: plan operation completed
+2023-06-19T00:12:06.083+0100 [INFO]  Terraform version: 1.4.6
+2023-06-19T00:12:06.083+0100 [INFO]  Go runtime version: go1.19.6
+2023-06-19T00:12:06.083+0100 [INFO]  CLI args: []string{"terraform", "plan", "-var-file=uat.tfvars"}
+2023-06-19T00:12:06.084+0100 [INFO]  CLI command args: []string{"plan", "-var-file=uat.tfvars"}
+2023-06-19T00:12:07.466+0100 [INFO]  backend/local: starting Plan operation
+2023-06-19T00:12:07.468+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:12:07.764+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:12:07.764+0100
+2023-06-19T00:12:08.286+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:12:08.286+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:12:08.287+0100 [INFO]  provider: configuring client automatic mTLS
+2023-06-19T00:12:08.570+0100 [INFO]  provider.terraform-provider-aws_v4.67.0_x5: configuring server automatic mTLS: timestamp=2023-06-19T00:12:08.570+0100
+2023-06-19T00:12:08.950+0100 [INFO]  backend/local: plan calling Plan
+2023-06-19T00:12:08.950+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:12:08.950+0100 [INFO]  ReferenceTransformer: reference not found: "terraform.workspace"
+2023-06-19T00:12:08.951+0100 [ERROR] vertex "var.region" error: Invalid value for variable
+2023-06-19T00:12:08.951+0100 [INFO]  backend/local: plan operation completed
